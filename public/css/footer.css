@@ -1,0 +1,108 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+.contactForm {
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+}
+
+.col_white_amrc {
+  color: #FFF;
+  font-family: var(--mplusrounded);
+  font-size: 22px;
+}
+
+.footer {
+  width: 100%;
+  background-color: #1e0b33;
+  min-height: 250px;
+  padding: 50px 0px 1px 0px;
+}
+
+.pt2 {
+  padding-top: 40px;
+  margin-bottom: 20px;
+}
+
+footer p {
+  font-size: 13px;
+  color: #FFF;
+  padding-bottom: 0px;
+  margin-bottom: 8px;
+}
+
+.mb10 {
+  padding-bottom: 15px;
+}
+
+.submit {
+  float: right;
+  clear: right;
+  margin-top: 10px;
+}
+
+.bottom_border {
+  border-bottom: 1px solid #321057;
+  padding-bottom: 50px;
+}
+
+.copyright {
+  font-family: var(--rosarivo);
+  font-size: 14px;
+  color: #FFF;
+}
+
+.social-container {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.social-icons {
+  padding: 0;
+  list-style: none;
+  margin: 1em;
+}
+.social-icons li {
+  display: inline-block;
+  margin: 0.15em;
+  position: relative;
+  font-size: 1.2em;
+}
+.social-icons i {
+  color: #fff;
+  position: absolute;
+  top: 21px;
+  left: 21px;
+  transition: all 265ms ease-out;
+}
+.social-icons a {
+  display: inline-block;
+}
+.social-icons a:before {
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -webkit-transform: scale(1);
+  content: " ";
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  display: block;
+  background: linear-gradient(45deg, #2F1050, #160627);
+  transition: all 265ms ease-out;
+}
+.social-icons a:hover:before {
+  transform: scale(0);
+  transition: all 265ms ease-in;
+}
+.social-icons a:hover i {
+  transform: scale(2.2);
+  -ms-transform: scale(2.2);
+  -webkit-transform: scale(2.2);
+  color: #0067FA;
+  background: -webkit-linear-gradient(45deg, #0067FA, #002A8F);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 265ms ease-in;
+}
+
+/*# sourceMappingURL=footer.css.map */
