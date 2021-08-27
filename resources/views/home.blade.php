@@ -1,7 +1,9 @@
 <!doctype html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="apple-touch-icon" sizes="180x180" href="{{ asset('img/header/apple-touch-icon.png') }}">
     <link rel="icon" type="image/png" sizes="32x32" href="{{ asset('img/header/favicon-32x32.png') }}">
@@ -26,7 +28,6 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/093c70902d.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="{{ asset('js/app.js') }}" defer></script>
     <script src="{{ asset('js/navbar.js') }}" defer></script>
     <script src="{{ asset('js/gallery.js') }}" defer></script>
 </head>
@@ -115,7 +116,6 @@
                 <div class="efficient">
                     <div class="efficientimg">
                         <img src="{{ asset('img/icons/efficient.png') }}" alt="Efficient" width="170" height="150">
-                        <!-- <object data="{{ asset('img/icons/energy-saving.svg') }}" alt="Efficient" width="150" height="150"> </object> -->
                     </div>
                     <h4 class="efficientText">Efficient</h4>
                 </div>

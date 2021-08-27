@@ -23,10 +23,10 @@
 
     <div class="social-container">
     <ul class="social-icons">
-        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-        <li><a href="#"><i class="fa fa-github"></i></a></li>
+        <li><a href="https://www.facebook.com/allanjbargs/" target="_blank" rel="noopener noreferrer"><i class="fa fa-facebook"></i></a></li>
+        <li><a href="https://www.instagram.com/styleofjer/" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/allan-jericho/" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a></li>
+        <li><a href="https://github.com/Jer-jer" target="_blank" rel="noopener noreferrer"><i class="fa fa-github"></i></a></li>
     </ul>
     </div>
 </div>
