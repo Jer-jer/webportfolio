@@ -37,7 +37,7 @@
     <section class="home">
         <div class="d-flex flex-column min-vh-100 justify-content-center align-items-center hometext">
             <div class="welcometext">
-                <div class="i" data-aos="fade-right" data-aos-offset="600" data-aos-easing="ease-in-sine">I</div>
+                <div class="i" data-aos="fade-right">I</div>
                 <div class="homeblocktext d-flex flex-column">
                     <div class="firstblocktext">am Allan Jericho</div>
                     <div class="secondblocktext">an aspiring <b>web developer</b></div>
@@ -46,7 +46,7 @@
                 </div>
             </div>
             <div class="arrowDown">
-                <a href="#" class="btn hvr-icon-hang arrowdown">
+                <a href="#about" class="btn hvr-icon-hang arrowdown">
                     <i class="fa fa-chevron-down hvr-icon"></i>
                 </a>
             </div>
@@ -64,7 +64,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item padl">
-                            <a class="nav-link hvr-underline-from-center active" href="#">Home</a>
+                            <a class="nav-link hvr-underline-from-center" href="#">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link hvr-underline-from-center" href="#about">About</a>
@@ -84,7 +84,7 @@
     <!-- ABOUT -->
     <section id="about" class="about">
         <div class="innerAbout">
-            <div class="aboutHeader">
+            <div class="aboutHeader" data-aos="fade-right" data-aos-duration="650" data-aos-anchor="#about">
                 <div class="borderlineSet">
                     <div class="topLeft">
                         <div class="bottomRight">
@@ -95,7 +95,7 @@
             </div>
         </div>
 
-        <div class="aboutContent">
+        <div class="aboutContent" data-aos="fade-right" data-aos-anchor-placement="top-bottom">
             <div class="left">
                 <div class="profilepic">
                     <img src="{{ asset('img/profpic.jpg') }}" alt="Profile Picture" class="profpic" width="250" height="250">
@@ -143,7 +143,7 @@
     </section>
     <!-- PORTFOLIO -->
     <section id="portfolio" class="portfolio">
-        <div class="portfolioHeader">
+        <div class="portfolioHeader" data-aos="fade-right" data-aos-duration="650" data-aos-anchor="#portfolio">
             <div class="borderlineSetPort">
                 <div class="topLeftPort">
                     <div class="bottomRightPort">
@@ -161,7 +161,7 @@
 
     <!-- FOOTER -->
     <section id="footer" class="footer">
-        <div class="footerHeader">
+        <div class="footerHeader" data-aos="fade-right" data-aos-duration="650" data-aos-anchor="#footer">
             <div class="borderlineSetFooter">
                 <div class="topLeftFooter">
                     <div class="bottomRightFooter">
