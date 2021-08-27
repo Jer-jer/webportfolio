@@ -32,7 +32,7 @@
     </div>
     <div class="gallery-item">
         <div class="content">
-            <img src="{{ asset('img/screenshots/uaa.PNG') }}" alt="USCAA App">
+            <img src="{{ asset('img/screenshots/uaa.png') }}" alt="USCAA App">
             <div class="thumbnailText hvr-grow"><a href="https://github.com/Jer-jer/Webdev-CIS-1204-" target="_blank" rel="noopener noreferrer">USC All Access</a></div>
             <div class="thumbnailContext hvr-grow">
                 <h6>A official web application for USC All Access</h6>
